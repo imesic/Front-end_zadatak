@@ -1,0 +1,627 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: .7rem;
+
+}
+
+h1 {
+	color: #e06e0c;
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2rem;
+}
+
+
+.hamby-nav {
+	display: none;
+}
+
+.holder-nav a {
+	text-decoration: none;
+	color: #636363;
+	font-weight:800;
+	font-size: 13px;
+}
+
+.opis h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.3rem;
+	color: #5b6ecc;
+}
+
+.container {
+	width: 100%;
+	overflow: hidden;
+}
+
+.navbar-container {
+	width: 100%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.holder-nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+} 
+
+.gumb-holder {
+	display: flex;
+	align-items: center;
+}
+.gumb {
+	border: none;
+	background: #e06e0c;
+	color: white;
+	padding: 12px 23px;
+	font-weight: 800;
+}
+
+.separator-nav {
+	width: 80px
+}
+
+
+/*slider*/
+
+/*video*/
+
+.video-wrapper {
+	position: relative;
+	padding-bottom: 37.1%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.slick-dots {
+	height: 100px;
+	width: 100px;
+}
+
+.slick-slide {
+margin: 0;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+ 
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.sredina-gore {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/*SREDNJA SEKCIJA*/
+.istaknuto {
+	display: flex;
+	width: 90%;
+	justify-content: flex-end;
+	background-color: white;
+	position: relative;
+	top: 100px;
+	padding-left: 90px;
+	padding-bottom: 40px;
+}
+
+.opis {
+	width: 35%;
+}
+
+.graf {
+	width: 65%;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	top: 60px;
+}
+
+.graf img {
+	width: 100%;
+	height: 100%;
+
+}
+
+.separator-visina {
+	height: 100px;
+}
+
+.separator-visina-slider {
+	height: 100px;
+}
+
+.opis p {
+	font-size: 20px;
+	background-color: white;
+}
+
+.separator-h2 {
+	height: 45px;
+}
+
+.sredina-dolje {
+	height: 100vh;
+	width: 100%;
+	background-image: url(../img/podloga.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.sredina-dolje-sadrzaj {
+	text-align: center;
+	padding-top: 150px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.width-70-pct {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.sredina-dolje-naslov {
+	font-size: 2.5rem;
+	text-align: left;
+	width: 90%;
+	color: #cacaca;
+}
+
+
+/* vertical tab */
+
+
+/* Style the tab */
+.tab {
+    float: left;
+   
+    width: 50%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    /*background: rgba(0,0,0,.3);*/
+    color: #cacaca;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background: rgba(0,0,0,.3);
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background: rgba(0,0,0,.3);
+}
+
+.tablinks {
+	background: rgba(0,0,0,0);
+	color: #cacaca;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 20px 20px;
+    width: 50%;
+    border-left: none;
+   
+    background: rgba(0,0,0,.3);
+}
+
+.tab-paragraf {
+	font-family: 'Work Sans', sans-serif;
+	color: #cacaca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.separator-opis {
+	height: 15px;
+}
+
+
+/*footer*/
+
+.footer-container {
+	width: 100%;
+	background-color: black;
+	padding: 40px 0px;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.kolona {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center;
+}
+
+.kolona ul {
+	list-style-type: none;
+}
+
+.kolona h4 {
+	margin-left: 7%;
+	margin-bottom: 4%;
+}
+
+.kolona {
+	color: white;
+}
+
+.kolona li {
+	padding-bottom: 8px;
+}
+
+.kolona a {
+	text-decoration: none;
+	color: white;
+}
+
+/*.drustvene-mreze {
+	padding-top: 20px;
+	position: relative;
+    right: 60px;
+    
+
+}*/
+
+.drustvene-mreze a {
+	font-size: 20px;
+    padding: 10px;
+    transition: 0.2s;
+    color: #f9f9f9;
+}
+
+
+.follow-us-padding {
+	padding-left: 35px;
+	padding-bottom: 10px
+}
+
+
+.drustvene-mreze a:hover {
+    text-decoration: none;
+}
+
+.facebook:hover {
+    color: #3b5998;
+}
+
+.twitter:hover {
+    color: #1da1f2;
+}
+
+.linkedin:hover {
+    color: #0077B5;
+}
+
+.rss:hover {
+    color: orange;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: 0.95;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e06e0c;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav-gumb {
+	border: none;
+	background: #e06e0c;
+	color: white;
+	padding: 12px 23px;
+	margin-left: 32px;
+	margin-top: 12px;
+	font-weight: 800;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+/*@media only screen and (min-width:320px) {
+
+}
+*/
+@media only screen and (max-width:600px) {
+
+
+	.navbar-container {
+		display: none;
+	}
+
+
+	.hamby-nav {
+		display: block;
+	}
+
+	.hamby-icon-logo-holder {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		margin: 0 auto;
+
+		padding: 20px;
+	}
+
+
+}
+@media only screen and (max-width:768px) {
+
+
+
+.width-70-pct {
+	width: 95%;
+}
+
+
+	.separator-visina-slider {
+		height: 0px;
+	}
+
+	.gumb {
+		padding: 10px 14px;
+		font-size: 10px;
+	}
+
+	.tab-paragraf {
+		font-size: .6rem;
+	}
+
+	.row {
+		display: flex;
+	    flex-direction: column;  
+	}
+
+	.opis p {
+		font-size: 0.8rem;
+	}
+
+	.follow-us-padding {
+		padding-left: 0px;
+		padding-bottom: 0px
+	}
+
+
+	.separator-nav {
+		width: 15px
+	}
+
+	.accordion-holder {
+		display: flex; flex-direction: column;
+	}
+
+		.tab {
+			width: 100%;
+		}
+
+		.tabcontent {
+			width: 100%;
+		}
+
+
+		.tab-paragraf {
+			flex-direction: column;
+		}
+
+
+	.row {
+		width: 100%;
+	}
+
+	.kolona {
+		align-self: center;
+		padding-bottom: 20px;
+		width: 30%;
+		text-align: center;
+		width: 100%;
+	}
+
+	.kolona h4 {
+		margin-left: 0;
+		margin-bottom: 15px;
+		align-self: center;
+		font-size: 12px;
+		font-size: 1.1rem;
+	}
+	
+	.kolona li {
+		font-size: .8rem;
+	}
+
+	.kolona a {
+		font-size: .8rem;
+	}
+}
+@media only screen and (max-width:1024px) {
+
+
+	.istaknuto {
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		position: relative;
+		top: 0;
+		padding-left: 0;
+		padding-bottom: 0;
+
+	}
+
+
+		.opis {
+			width: 95%;
+		}
+
+		.graf {
+			width: 100%;
+			display: flex;
+			justify-content: flex-end;
+			position: relative;
+			top: 60px;
+		}
+
+
+	.tab-paragraf {
+	    font-size: 1.0rem;
+	}
+
+}
+/*
+@media only screen and (max-width:1140px) {
+
+}
+*/
+@media only screen and (max-width:1280px) {
+
+h1 {
+	font-size: 1rem;
+}
+
+.holder-nav a {
+	font-size: 9px;
+}
+
+.gumb {
+	padding: 10px 14px;
+	font-weight: 600;
+}
+
+.opis h2 {
+	font-size: 1.5rem;
+}
+
+.opis p {
+	font-size: 1rem;
+}
+
+.sredina-dolje-naslov {
+	font-size: 1.6rem;
+}
+
+.sredina-dolje {
+	height: 100%;
+	width: 100%;
+}
+
+.tab button {
+    font-size: 14px;
+}
+
+.tab-paragraf {
+    font-size: 1.1rem;
+}
+
+}
+
+@media only screen and (min-width:768px) {
+	.tab-paragraf h2 {
+		display: none;
+	}
+}
